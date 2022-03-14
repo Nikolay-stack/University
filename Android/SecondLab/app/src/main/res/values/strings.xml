@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Справочник стран</string>
+    <string name="chosen_image">Your chosen image</string>
+    <string name="choose_image_btn">Choose the country</string>
+    <!--    <string name="imageNameTextView">Chose counter ==></string>-->
+    <string name="country_name">You chose </string>
+
+    <string name="emoticonTextView">Choose image</string>
+    <string name="spain">Spain</string>
+    <string name="china">China</string>
+    <string name="colombia">Colombia</string>
+    <string name="germany">Germany</string>
+    <string name="italy">Italy</string>
+    <string name="england">England</string>
+    <string name="southkorea">South Korea</string>
+    <string name="russia">Russia</string>
+    <string name="norvegia">Norvegia</string>
+
+</resources>

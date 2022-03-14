@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emoticonSelection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountrySelection">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/emoticonTextView"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/LinLayoutView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="#F6F6F6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/spain"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="150px"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/spain"
+                android:drawableTop="@drawable/ic_es"
+                android:text="@string/spain"
+                app:srcCompat="@drawable/ic_es" />
+
+
+            <Button
+                android:id="@+id/china"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/china"
+                android:drawableTop="@drawable/ic_cn"
+                android:text="@string/china"
+                app:srcCompat="@drawable/ic_cn" />
+
+            <Button
+                android:id="@+id/colombia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/colombia"
+                android:drawableTop="@drawable/ic_co"
+                android:text="@string/china"
+                app:srcCompat="@drawable/ic_co" />
+
+            <Button
+                android:id="@+id/germany"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/germany"
+                android:drawableTop="@drawable/ic_de"
+                android:text="@string/china"
+                app:srcCompat="@drawable/ic_de"
+                />
+
+            <Button
+                android:id="@+id/italy"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/italy"
+                android:drawableTop="@drawable/ic_it"
+                android:text="@string/china"
+                app:srcCompat="@drawable/ic_it" />
+
+            <Button
+                android:id="@+id/england"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/england"
+                android:drawableTop="@drawable/ic_sh"
+                android:text="@string/china"
+                app:srcCompat="@drawable/ic_sh" />
+
+            <Button
+                android:id="@+id/southkorea"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/southkorea"
+                android:drawableTop="@drawable/ic_kr"
+                android:text="@string/china"
+                app:srcCompat="@drawable/ic_kr" />
+
+            <Button
+                android:id="@+id/russia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/russia"
+                android:drawableTop="@drawable/ic_ru"
+                android:text="@string/china"
+                app:srcCompat="@drawable/ic_ru" />
+
+            <Button
+                android:id="@+id/norvegia"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F6F6F6"
+                android:contentDescription="@string/norvegia"
+                android:drawableTop="@drawable/ic_se"
+                android:text="@string/china"
+                app:srcCompat="@drawable/ic_se" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IT_Test</string>
+    <string name="question_1">Как называется код между фигурными скобками?</string>
+    <string name="q1_answer_1">функция</string>
+    <string name="q1_answer_2">блок</string>
+    <string name="q1_answer_3">секция</string>
+
+    <string name="question_2">Каково значение arr[1].length в следующем массиве?
+
+int[][] arr = { {1, 2, 3, 4, 5}, { 6, 7, 8, 9, 10} };</string>
+    <string name="q2_answer_1">5</string>
+    <string name="q2_answer_2">10</string>
+    <string name="q2_answer_3">1</string>
+
+    <string name="question_3">В чем разница между char и Character?</string>
+    <string name="q3_answer_1">нет разницы, они оба классы.</string>
+    <string name="q3_answer_2">char является примитивным типом, а Character классом.</string>
+    <string name="q3_answer_3">нет разницы, они оба примитивные типы.</string>
+
+    <string name="question_4">Какие из этих операторов можно использовать для объединения двух или более объектов String?</string>
+    <string name="q4_answer_1">+</string>
+    <string name="q4_answer_2">*=</string>
+    <string name="q4_answer_3">+=</string>
+
+    <string name="question_5">От какого класса наследуют все классы Java?</string>
+    <string name="q5_answer_1">Object</string>
+    <string name="q5_answer_2">List</string>
+    <string name="q5_answer_3">Collection</string>
+
+
+</resources>
